@@ -2,6 +2,7 @@
 title: Personal security might be the most responsible thing to do
 date: 2026-01-10
 category: [Tech, Security]
+author: atif_shaikh
 tag: seed
 ---
 Personal security ranks high in responsibility, especially for IT professionals like you handling sensitive data in locations such as Karachi. It covers both digital threats, aligning with your cybersecurity interests, and physical risks in urban Pakistan. Prioritising it reduces vulnerabilities from cyber attacks to street crime.[1]
