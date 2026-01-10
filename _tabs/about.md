@@ -4,29 +4,30 @@ icon: fas fa-info-circle
 order: 4
 ---
 
+# Where I am coming from?
+
+Writing is thinking. Writing in public is yearning for connection amongst the vast emptiness of noise. It is a call to action to escape the void; though it is an effort in hubris to self-preserve, it offers a chance, albeit the rarest of chances, that when all is forgotten and forged in a digital pile of graves, you and I witnessed us! 
+
+I am an optimistic contrarion and believe that a better future while possible is not probable without our collective and deliberate efforts. Our shared humanity lies in our ability to collaborate together especially to restore our individual agency to withstand the assymetry that comes with the concentration of control and misalignment amongst people and resources. You will find ideas here that are out of the norms, at first might even seem complaining though I like to believe in seeing both flaws and opportunities and having fun along the way. 
 
 
-I love solving business problems often through solutioning data intensive systems and analytics. My key approach is meeting constraints and concerns through product and stakeholder management. I am a specialised generalist and an optimistic contrarian with key skills in tech systems and analytics. 
-{: .prompt-tip }
+# The Noiseless Patient Spider
+_By Walt Whitman_
+A noiseless patient spider,
+I mark’d where on a little promontory it stood isolated,
+Mark’d how to explore the vacant vast surrounding,
+It launch’d forth filament, filament, filament, out of itself,
+Ever unreeling them, ever tirelessly speeding them.
 
-I have enjoyed diverse roles in data modelling, solution architecture, data engineering, machine learning, knowledge management and pre-sales. Through my personal and professional experience I have learned the following about myself:
+And you O my soul where you stand,
+Surrounded, detached, in measureless oceans of space,
+Ceaselessly musing, venturing, throwing, seeking the spheres to connect them,
+Till the bridge you will need be form’d, till the ductile anchor hold,
+Till the gossamer thread you fling catch somewhere, O my soul
 
-I am good at identifying business problems, materialising early stage concepts into working prototypes and taking it through implementation, delivery and adoption. I can work with both product market fit (0-1) and scaling (1-100) challenges. I love building technical systems for business value generation. 
+# Where I'd like to Go
 
-- I am people oriented and facilitate shared understanding
-- I nudge teams to understand the ‘why’ and problem discovery before implementing
-- I put attention to detail in technical matters though work within project constraints. 
-- I love breaking down work into small increments with feedback loops for learning. 
-- I love experimentation and observability as a fundamental way of working. 
-- I love breaking things down into first principles and re-assembling them. 
-- I make effective notes and visual artefacts for myself that others also cherish. 
+This poem is a metaphor on the human condition. From isolation, seeking a connection. The metaphor indicates what we strive for, flinging ourselves in different directions yet patiently doing so until one of the flings can hook us to some grounding. 
 
-My Top 5 Clifton Strengths Test (2022):
-1. Intellection: I like to reason through things
-2. Input: I like to get well informed and I research a lot.
-3. Deliberativeness: Decision making is important and methodical to me
-4. Strategic: I love charting out scenarios and assessing risks and bets.
-5. Connectedness: Connecting the dots and solving for the whole of us.
+However, all the directions that we have treaded form a web of fulfillment and a nest to dwell in. I feel the poem is a life lesson to keep traversing in different directions and similar to the adage of connecting the dots backwards, this poem elaborates that every experiment and every quest forms an integral part of the whole. It is in our nature to seek and explore. We have an empty canvas of the universe that we can strive to fill with experiences, sublime.
 
-My Background: 
-I was born in Nigeria, grew up in Saudi Arabia, parents are from Pakistan, lived in Germany, am a naturalised Australian and identify as a global citizen. I have work exposure to several markets including: US, Germany, Australia, Singapore, Malaysia, Saudi Arabia, UAE and Pakistan.
