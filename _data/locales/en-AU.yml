@@ -1,1 +1,10 @@
 meta: Curating the mind | Taming the monkey
+
+# The tabs of sidebar
+tabs:
+  # format: <filename_without_extension>: <value>
+  home: Home
+  categories: Categories
+  tags: Tags
+  archives: Archives
+  about: About
