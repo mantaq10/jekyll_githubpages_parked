@@ -4,9 +4,10 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-{: .prompt-tip }
+
 
 I love solving business problems often through solutioning data intensive systems and analytics. My key approach is meeting constraints and concerns through product and stakeholder management. I am a specialised generalist and an optimistic contrarian with key skills in tech systems and analytics. 
+{: .prompt-tip }
 
 I have enjoyed diverse roles in data modelling, solution architecture, data engineering, machine learning, knowledge management and pre-sales. Through my personal and professional experience I have learned the following about myself:
 
