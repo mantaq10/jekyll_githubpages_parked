@@ -3,6 +3,8 @@
 icon: fas fa-info-circle
 order: 4
 ---
+> “Remember where you came from, where you're going, and why you created this mess you got yourself into in the first place.” _Richard Bach, Illusions_
+{: .prompt-tip }
 
 # Where I am coming from?
 
