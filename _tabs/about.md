@@ -28,7 +28,7 @@ Ceaselessly musing, venturing, throwing, seeking the spheres to connect them,<br
 Till the bridge you will need be form’d, till the ductile anchor hold,<br>
 Till the gossamer thread you fling catch somewhere, O my soul<br>
 
-# Where I'm going
+## Where I'm going
 
 This poem is a metaphor on the human condition. From isolation, seeking a connection. The metaphor indicates what we strive for, flinging ourselves in different directions yet patiently doing so until one of the flings can hook us to some grounding. 
 
