@@ -1,12 +1,11 @@
 ---
 layout: post
-title: Step1 to protect yourself from AI Enshitiifcation
-description:
+title: Creating a Sustainable Password Management Practice
+description: An easy and step by step guide to protect your online identity and data
+  and why everyone should take security seriously and perform effortlessly.
 image:
-category:
-- Tech
-- Security
-tags: passkeys, authentication, guide
+category: Guide
+tags: security identity authentication passkeys
 date: 2026-01-11 18:15 +0500
 ---
 AI's most likely risk to hit us all may not be jobs displacement or power concentration at the hands of few. Its going to be cyber attack on both us and the service providers we use. AI and agents have significantly increased both the number of attacks on systems, thouhg there is adversity from within our corporatations as well. Last year, Cory Doctrow published his latest book Enshitification which has now entered our parlace quicker than just a fad. It refer to the predictable decline of online platforms over time. It may not be intentional though as demands to ship code faster has carelessly led to adoption of vibe coding without guardrails, let alone a clear understanding or competence among coroporations on how to safely utilise it, our systems are now more exposed than ever. And at the heart of it is our data that gets processed and preserved in these systems. The amount of data breaches and online identity theft is on a staggering rise and we all are impacted one way or the other. 
