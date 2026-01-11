@@ -1,0 +1,15 @@
+{
+  "spec": "https://ai-domain-data.org/spec/v0.1",
+  "name": "Atif Shaikh",
+  "description": "Curating the mind, Taming the monkey",
+  "website": "https://mantaq10.github.com",
+  "contact": "atif.shaikh@datamnatiq.com",
+  "entity_type": "Blog",
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Atif Shaikh",
+    "url": "http://mantaq10.github.com",
+    "email": "atif.shaikh@datamantiq.com"
+  }
+}

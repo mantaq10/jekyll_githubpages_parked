@@ -47,6 +47,26 @@ social:
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
+# I am using this section to put all the third party pllugins that I added myself into the process. 
+
+
+plugins:
+  - jekyll-ai-domain-data
+
+ai_domain_data:
+  enabled: true  # Set to false to disable generation
+  name: "Atif Shaikh"
+  description: "Curating the mind, Taming the monkey"
+  website: "mantaq10.github.com"  # Optional, defaults to site.url
+  contact: "atif.shaikh@datamnatiq.com"
+  entity_type: "Blog"  # Optional: Organization, Person, Blog, NGO, Community, Project, CreativeWork, SoftwareApplication, or Thing
+  jsonld:  # Optional: Embedded JSON-LD block
+    "@context": "https://schema.org"
+    "@type": "Blog"
+    "name": "Atif Shaikh"
+    "url": "http://mantaq10.github.com"
+    "email": "atif.shaikh@datamantiq.com"
+
 jekyll_compose:
   default_front_matter:
     drafts:
@@ -165,7 +185,7 @@ pwa:
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
-paginate: 10
+paginate: 5
 
 # The base URL of your site
 baseurl: ""
