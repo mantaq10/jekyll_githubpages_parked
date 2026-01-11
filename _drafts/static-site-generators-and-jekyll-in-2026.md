@@ -7,3 +7,4 @@ image:
 category: Opinion
 tags: webdev jekyll ruby
 ---
+AI hasn't killed wriitng, it has only raised the bar. I wonder how many writers have given up writing either. Social media didn't kill websites that might appear so, they have increased the size of the market instead. The percentage of people getting online per population is increasing and social media is likely their first interace to the itnernet. Though by itself, there lies the threat to what the internet stood for, free as in freedom and a global marketplace of ideas, uncensored, uncommercialised and not corrupted. 
