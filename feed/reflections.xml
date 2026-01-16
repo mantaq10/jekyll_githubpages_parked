@@ -1,0 +1,24 @@
+---
+layout: null
+permalink: /tech/reflections.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Atif Shaikh – Reflections</title>
+    <link>{{ site.url }}{{ "/tech/" }}</link>
+    <description>Philosophy & Rants</description>
+    {% assign cat = "reflections" %}
+    {% for post in site.posts %}
+      {% if post.categories contains cat %}
+        <item>
+          <title>{{ post.title | xml_escape }}</title>
+          <link>{{ site.url }}{{ post.url }}</link>
+          <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+          <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+          <description>{{ post.excerpt | strip_html | xml_escape }}</description>
+        </item>
+      {% endif %}
+    {% endfor %}
+  </channel>
+</rss>

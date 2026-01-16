@@ -2,28 +2,20 @@
 
 # Import the theme
 theme: jekyll-theme-chirpy
-
-# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
-# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
-# otherwise, the layout language will use the default value of 'en'.
 lang: en-AU
-
-# Change to your timezone › https://zones.arilyn.cc
-timezone: Asia/Karachi
-
-# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
-# ↓ --------------------------
+timezone: Asia/Karachi # Change to your timezone › https://zones.arilyn.cc
 
 title: Atif Shaikh # the main title
-
 tagline: >
-  Curating the mind <br>
-  Taming the monkey. 
+  <p><b>Curating the Mind <br>
+  Taming the Monkey <br></b></p>
+  <br> <p align=justify>I love designing customer facing data & AI intensive systems and ocassionally manage products.<br>
+  </p>
 
-# it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Escaping the default mode of culture, identity and group think, reconnecting with the self, with nature and re-tribing. 
+  <p><b>Curating the Mind <br>Taming the Monkey <br></b></p>I love designing data & AI intensive systems and ocassionally manage products.<br>
+
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: ""
@@ -41,31 +33,31 @@ social:
   email: atif.shaikh@datamantiq.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/mantaq10 # change to your Twitter homepage
-    - https://github.com/mantaq10# change to your GitHub homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
-
-# I am using this section to put all the third party pllugins that I added myself into the process. 
-
+    - https://www.linkedin.com/in/datamantiq
+    - https://twitter.com/mantaq10 
+    - https://github.com/mantaq10  
+    
 
 plugins:
   - jekyll-ai-domain-data
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-compose
+  
+
+
 
 ai_domain_data:
   enabled: true  # Set to false to disable generation
-  name: "Atif Shaikh"
-  description: "Curating the mind, Taming the monkey"
-  website: "mantaq10.github.com"  # Optional, defaults to site.url
-  contact: "atif.shaikh@datamnatiq.com"
+  contact: "mantaq382@gmail.com"
   entity_type: "Blog"  # Optional: Organization, Person, Blog, NGO, Community, Project, CreativeWork, SoftwareApplication, or Thing
-  jsonld:  # Optional: Embedded JSON-LD block
-    "@context": "https://schema.org"
-    "@type": "Blog"
-    "name": "Atif Shaikh"
-    "url": "http://mantaq10.github.com"
-    "email": "atif.shaikh@datamantiq.com"
+  #jsonld:  # Optional: Embedded JSON-LD block
+  #  "@context": "https://schema.org"
+  #  "@type": "Blog"
+  #  "name": "Atif Shaikh"
+  # "url": "http://mantaq10.github.com"
+  #  "email": "atif.shaikh@datamantiq.com"
 
 jekyll_compose:
   default_front_matter:
@@ -82,8 +74,11 @@ jekyll_compose:
       published: false
       sitemap: false
 
+# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+# ↓ --------------------------
+
 # Site Verification Settings
-webmaster_verifications:
+webmaster_verifications:  
   google: # fill in your Google verification code
   bing: # fill in your Bing verification code
   alexa: # fill in your Alexa verification code
@@ -137,7 +132,7 @@ cdn:
 
 # the avatar on sidebar, support local or CORS resources
 avatar: /assets/img/avatar.jpg
-favicon: /assets/img/favicon.ico
+#favicon: /assets/img/favicon.ico
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
 social_preview_image: # string, local or CORS resources
