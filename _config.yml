@@ -7,14 +7,12 @@ timezone: Asia/Karachi # Change to your timezone › https://zones.arilyn.cc
 
 title: Atif Shaikh # the main title
 tagline: >
-  <p><b>Curating the Mind <br>
-  Taming the Monkey <br></b></p>
-  <br> <p align=justify>I love designing customer facing data & AI intensive systems and ocassionally manage products.<br>
-  </p>
+  Hi there! I design data & AI intensive systems and co-create digital products. I am freaked out about the world we have created yet equally excited about all the flourishing we can collectively attain<br></p>
+  
 
 
 description: >- # used by seo meta and the atom feed
-  <p><b>Curating the Mind <br>Taming the Monkey <br></b></p>I love designing data & AI intensive systems and ocassionally manage products.<br>
+  Personal blog on tech, industry and reflections. 
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -39,7 +37,7 @@ social:
     
 
 plugins:
-  - jekyll-ai-domain-data
+  #- jekyll-ai-domain-data
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
@@ -48,16 +46,16 @@ plugins:
 
 
 
-ai_domain_data:
-  enabled: true  # Set to false to disable generation
-  contact: "mantaq382@gmail.com"
-  entity_type: "Blog"  # Optional: Organization, Person, Blog, NGO, Community, Project, CreativeWork, SoftwareApplication, or Thing
-  #jsonld:  # Optional: Embedded JSON-LD block
-  #  "@context": "https://schema.org"
-  #  "@type": "Blog"
-  #  "name": "Atif Shaikh"
-  # "url": "http://mantaq10.github.com"
-  #  "email": "atif.shaikh@datamantiq.com"
+# ai_domain_data:
+#   enabled: true  # Set to false to disable generation
+#   contact: "mantaq382@gmail.com"
+#   entity_type: "Blog"  # Optional: Organization, Person, Blog, NGO, Community, Project, CreativeWork, SoftwareApplication, or Thing
+#   #jsonld:  # Optional: Embedded JSON-LD block
+#   #  "@context": "https://schema.org"
+#   #  "@type": "Blog"
+#   #  "name": "Atif Shaikh"
+#   # "url": "http://mantaq10.github.com"
+#   #  "email": "atif.shaikh@datamantiq.com"
 
 jekyll_compose:
   default_front_matter:

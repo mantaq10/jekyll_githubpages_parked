@@ -8,9 +8,9 @@
   icon: "fa-brands fa-medium"
   url: "https://medium.com/@datamantiq"
 
-- type: youtube
-  icon: "fab fa-youtube"
-  url: "https://www.youtube.com/@mantaq10"
+# - type: youtube
+#   icon: "fab fa-youtube"
+#   url: "https://www.youtube.com/@mantaq10"
 
 #- type: github
 #  icon: "fab fa-github"
