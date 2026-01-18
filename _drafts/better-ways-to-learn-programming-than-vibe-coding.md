@@ -7,3 +7,18 @@ image:
 category: [Tech, Algorithms & Programming]
 tags: vibe-coding ruby
 ---
+
+> This is a note.
+{: .gh-alert.note }
+
+> This is a tip.
+{: .gh-alert.tip }
+
+> This is an important note.
+{: .gh-alert.important }
+
+> This is a warning.
+{: .gh-alert.warning }
+
+> This is a caution.
+{: .gh-alert.caution }

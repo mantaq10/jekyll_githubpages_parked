@@ -6,6 +6,7 @@
   .bundle
 {%- endif -%}
 ';
+
 /* This is the remaining of the Chinese Guy's Theme */
 
 
@@ -25,6 +26,7 @@
     --clipboard-checked-color: #43c743
   }
 
+  // Test These look like forced HTML settings but check
   html:not([data-mode]) [class^=prompt-],
   html[data-mode=light] [class^=prompt-] {
     --inline-code-bg: #fbfafa
@@ -1230,63 +1232,124 @@
   }
 }
 
+/* Original Theme
+    --bold_standard: #364F6B;
+    --bold_contrast: #F5F5F5;       
+    --muted_standard: #1C4D8D;  
+    --muted_contrast: #569de0;   
+    --ink_standard: black;      
+    --ink_contrast: white; 
+    --flare_standard: #FC5185;
+    --flare_contrast: #3FC1C9;
+*/
 @media(prefers-color-scheme:light) {
 
   html:not([data-mode]),
   html[data-mode=light] {
-    --main-bg: white;
-    --mask-bg: #c1c3c5;
-    --main-border-color: #757575;
-    --text-color: black;
-    --text-muted-color: #1C4D8D;
-    --text-muted-hightlight-color: inherit;
-    --heading-color: black;
-    --label-color: #585858;
-    --blockquote-border-color: #eee;
-    --blockquote-text-color: #757575;
-    --link-color: #1C4D8D;
-    --link-underline-color: #1C4D8D;
-    --link-hover-color: #1C4D8D;
-    --button-bg: #0F2854;
-    --btn-border-color: #0F2854;
-    --btn-backtotop-color: #686868;
-    --btn-backtotop-border-color: #f1f1f1;
-    --btn-box-shadow: #c5c5c5;
-    --checkbox-color: #c5c5c5;
-    --checkbox-checked-color: #07a8f7;
-    --img-bg: radial-gradient(circle, #fff 0%, #efefef 100%);
+    --bold_standard: #772e25;
+    --bold_contrast: #fff8f5;       
+    --muted_standard: #c44536;  
+    --muted_contrast: #d99185;   
+    --ink_standard: #283d3b;      
+    --ink_contrast: #f7ebe5; 
+    --flare_standard: #197278;
+    --flare_contrast: #83a8a6;
+
+    //bold_standard (9)
+    --sidebar-bg:                   var(--bold_standard); 
+    
+    --sidebar-hover-bg:             var(--bold_standard); 
+    --sidebar-btn-bg:               var(--bold_standard); 
+    --heading-color:                var(--bold_standard);
+    --search-icon-color:            var(--bold_standard); 
+    --checkbox-checked-color:       var(--bold_standard);
+    --kbd-text-color:               var(--bold_standard);
+    
+    
+    
+    //bold_contrast (4)
+    --main-bg:                      var(--bold_contrast);
+    --topbar-bg:                    var(--bold_contrast);
+    --search-tag-bg:                var(--bold_contrast);
+    --kbd-wrap-color:               var(--bold_contrast);
+    --site-title-color:             var(--bold-contrast);
+    
+
+      
+    
+    //muted_standard (10)
+    --text-muted-color:             var(--muted_standard);
+    
+    --post-list-text-color:         var(--muted_standard); 
+    --toc-highlight:                var(--muted_standard);
+    --btn-box-shadow:               var(--muted_standard);
+    --checkbox-color:               var(--muted_standard);
+    --tb-border-color:              var(--muted_standard);
+    --tag-shadow:                   var(--muted_standard);
+    --tag-border:                   var(--muted_standard); 
+    
+
+
+    //muted_contrast (13)
+    --sidebar-muted-color:          var(--muted_contrast); 
+    --link-color:                   var(--muted_contrast);
+    --main-border-color:            var(--muted_contrast);
+    --sidebar-border-color:         var(--muted_contrast);
+    --input-focus-border-color:     var(--muted_contrast);
+    --btn-backtotop-border-color:   var(--muted_contrast);
+    --search-border-color:          var(--muted_contrast); 
+    --btn-border-color:             var(--muted_contrast);
+    --mask-bg:                      var(--muted_contrast);
+    --sidebar-active-color:         var(--muted_contrast);
+    --button-bg:                    var(--muted_contrast);
+    --btn-paginator-hover-color:    var(--muted_contrast);
+    --tb-odd-bg:                    var(--muted_contrast);
+    --kbd-bg-color:                 var(--muted_contrast);
+    --site-subtitle-color:          var(--muted_contrast);
+    --card-hovor-bg:                var(--muted_contrast);
+    --sidebar-btn-color:            var(--muted_contrast);
+    
+    //ink_standard (3)
+    --text-color:                   var(--ink_standard);
+    --topbar-text-color:            var(--ink_standard);
+    --btn-share-color:              var(--ink_standard);
+    --btn-patinator-text-color:     var(--ink_standard);
+    
+    //ink_contrast (7)
+    --label-color:                  var(--ink_contrast);
+    --avatar-border-color:          var(--ink_contrast);
+    --btn-share-hover-color:        var(--ink_contrast);
+    --card-bg:                      var(--ink_contrast);
+    --footnote-target-bg:           var(--ink_contrast);
+    --btn-backtotop-color:          var(--ink_contrast);
+
+
+
+    //flare_standard (3)
+    --blockquote-text-color:        var(--flare_standard);
+    --link-underline-color:         var(--flare_standard);
+    --dash-color:                   var(--flare_standard);
+    
+
+    //flare_contrast (4)
+    --text-muted-hightlight-color:  var(--flare-contrast); 
+    --blockquote-border-color:      var(--flare_contrast);
+    --link-hover-color:             var(--flare_contrast);
+    --tag-hover:                    var(--flare_contrast);
+  
+  
+    
+    //Mixed
+    --img-bg: radial-gradient(circle, var(--bold_standard) 0%, var(--flare_contrast) 100%);
+    
+    
+    //To Clean Up
     --shimmer-bg: linear-gradient(90deg, rgba(250, 250, 250, 0) 0%, rgba(232, 230, 230, 1) 50%, rgba(250, 250, 250, 0) 100%);
-    --site-title-color: #BDE8F5; /* modified */
-    --site-subtitle-color: #4988C4; /* modified this is the darker green shade i want */
-    --sidebar-bg: #0F2854; /* modified got this blue shade.*/
-    --sidebar-border-color: #efefef;
-    --sidebar-muted-color: #BDE8F5; /* list items */
-    --sidebar-active-color: whitesmoke;
-    --sidebar-hover-bg: #0F2854; /*modified pickel color */
-    --sidebar-btn-bg: #0F2854; /* modified sociallinks? */
-    --sidebar-btn-color: #BDE8F5;
-    --avatar-border-color: white;
-    --topbar-bg:white; /* rgb(255, 255, 255, 0.7); */
-    --topbar-text-color: #0F2854; /* modified #4e4e4e; */
-    --search-border-color: #1C4D8D;
-    --search-icon-color: #0F2854; /*modified #; */
-    --input-focus-border-color: #1C4D8D;
-    --post-list-text-color: #4988C4; /* modified dimgray; */
-    --btn-patinator-text-color: #0F2854;
-    --btn-paginator-hover-color: #BDE8F5; /* modified var(--sidebar-bg); */
-    --toc-highlight: #BDE8F5;/*modified lightblue*/
-    --btn-share-color: black;
-    --btn-share-hover-color: #4988C4;
-    --card-bg: whitesmoke;
-    --card-hovor-bg: #BDE8F5;
     --card-shadow: rgb(104, 104, 104, 0.05) 0 2px 6px 0, rgba(211, 209, 209, 0.15) 0 0 0 1px;
-    --footnote-target-bg: lightcyan;
-    --tb-odd-bg: #fbfcfd;
-    --tb-border-color: #eaeaea;
-    --dash-color: silver;
-    --kbd-wrap-color: #bdbdbd;
-    --kbd-text-color: var(--text-color);
-    --kbd-bg-color: white;
+    
+
+    //Test: These are not changing using the variables? 
+
     --prompt-text-color: rgb(46, 46, 46, 0.77);
     --prompt-tip-bg: rgb(123, 247, 144, 0.2);
     --prompt-tip-icon-color: #03b303;
@@ -1296,10 +1359,6 @@
     --prompt-warn-icon-color: #ef9c03;
     --prompt-danger-bg: rgb(248, 215, 218, 0.56);
     --prompt-danger-icon-color: #df3c30;
-    --tag-border: #dee2e6;
-    --tag-shadow: var(--btn-border-color);
-    --tag-hover: #e4dee6;
-    --search-tag-bg: #f8f9fa
   }
 
   html:not([data-mode]) [class^=prompt-],
@@ -1689,13 +1748,6 @@ body {
   color: var(--text-muted-color)
 }
 
-//Test: Refactor the hardcoded colors. 
-#back-to-top {
-  background-color: #1C4D8D;
-  border: 1px solid var(--btn-backtotop-border-color);
-  color: white; 
-  box-shadow: 0 2px 6px 0 var(--btn-box-shadow)
-}
 // Keep: reduces whitespace. 
 @media all and (min-width:850px) {
   html {
