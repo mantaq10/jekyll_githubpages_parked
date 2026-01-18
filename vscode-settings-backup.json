@@ -1,0 +1,101 @@
+{
+  "_comment": "VS Code Settings Backup - Created automatically",
+  "_date": "2026-01-18",
+  
+  "workspace": {
+    "file": "mantaq10.github.io.code-workspace",
+    "content": {
+      "folders": [
+        {
+          "path": "."
+        }
+      ],
+      "settings": {
+        "files.associations": {
+          "*.html": "liquid"
+        },
+        "terminal.integrated.profiles.osx": {
+          "zsh": {
+            "path": "/bin/zsh",
+            "args": [
+              "-l",
+              "-i"
+            ]
+          }
+        }
+      }
+    }
+  },
+  
+  "vscode_settings": {
+    "file": ".vscode/settings.json",
+    "content": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+      "files.associations": {
+        "*.html": "liquid"
+      },
+      "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+      },
+      "[html][liquid]": {
+        "editor.defaultFormatter": "Shopify.theme-check-vscode"
+      },
+      "[shellscript]": {
+        "editor.defaultFormatter": "mkhl.shfmt"
+      },
+      "css.validate": false,
+      "scss.validate": false,
+      "less.validate": false,
+      "stylelint.snippet": ["css", "scss"],
+      "stylelint.validate": ["css", "scss"],
+      "terminal.integrated.profiles.osx": {
+        "zsh": { "path": "/bin/zsh", "args": ["-l", "-i"] }
+      },
+      "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+      },
+      "zenMode.hideLineNumbers": false,
+      "zenMode.centerLayout": false,
+      "zenMode.restore": false,
+      "zenMode.showTabs": "none"
+    }
+  },
+  
+  "vscode_extensions": {
+    "file": ".vscode/extensions.json",
+    "content": {
+      "recommendations": ["ms-vscode-remote.remote-containers"]
+    }
+  },
+  
+  "vscode_tasks": {
+    "file": ".vscode/tasks.json",
+    "content": {
+      "version": "2.0.0",
+      "tasks": [
+        {
+          "label": "Run Jekyll Server",
+          "type": "shell",
+          "command": "./tools/run.sh",
+          "group": {
+            "kind": "build",
+            "isDefault": true
+          },
+          "problemMatcher": [],
+          "detail": "Runs the Jekyll server with live reload."
+        },
+        {
+          "label": "Build Jekyll Site",
+          "type": "shell",
+          "command": "./tools/test.sh",
+          "group": {
+            "kind": "build"
+          },
+          "problemMatcher": [],
+          "detail": "Build the Jekyll site for production."
+        }
+      ]
+    }
+  }
+}
