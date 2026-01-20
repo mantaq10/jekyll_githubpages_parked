@@ -12,9 +12,9 @@
 #   icon: "fab fa-youtube"
 #   url: "https://www.youtube.com/@mantaq10"
 
-#- type: github
-#  icon: "fab fa-github"
-#  url: "https://github.com/mantaq10"
+- type: github
+  icon: "fab fa-github"
+  url: "https://github.com/mantaq10"
 
 # this is not working for me on the web.
 #- type: email
