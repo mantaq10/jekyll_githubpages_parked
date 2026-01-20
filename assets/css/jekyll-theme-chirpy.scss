@@ -1246,49 +1246,47 @@
 
   html:not([data-mode]),
   html[data-mode=light] {
-    --bold_standard: #772e25;
-    --bold_contrast: #fff8f5;       
-    --muted_standard: #c44536;  
-    --muted_contrast: #d99185;   
-    --ink_standard: #283d3b;      
-    --ink_contrast: #f7ebe5; 
-    --flare_standard: #197278;
-    --flare_contrast: #83a8a6;
+    --bold_standard: #003049;
+    --bold_contrast: #fafbf5;       
+    --muted_standard: #780000;  
+    --muted_contrast: #669bbc;   
+    --ink_standard: black;      
+    --ink_contrast: white; 
+    --flare_standard: #c1121f;
+    --flare_contrast: rgb(0, 179, 0);
+    --flare-special: #c7f8d7;
+
+    --site-title-color:             var(--flare-special);
+
 
     //bold_standard (9)
     --sidebar-bg:                   var(--bold_standard); 
-    
     --sidebar-hover-bg:             var(--bold_standard); 
     --sidebar-btn-bg:               var(--bold_standard); 
     --heading-color:                var(--bold_standard);
     --search-icon-color:            var(--bold_standard); 
     --checkbox-checked-color:       var(--bold_standard);
     --kbd-text-color:               var(--bold_standard);
-    
-    
+    --tag-shadow:                   var(--bold_standard);
+    --tag-hover:                    var(--bold_standard);
     
     //bold_contrast (4)
     --main-bg:                      var(--bold_contrast);
     --topbar-bg:                    var(--bold_contrast);
     --search-tag-bg:                var(--bold_contrast);
     --kbd-wrap-color:               var(--bold_contrast);
-    --site-title-color:             var(--bold-contrast);
     
 
       
     
     //muted_standard (10)
     --text-muted-color:             var(--muted_standard);
-    
     --post-list-text-color:         var(--muted_standard); 
     --toc-highlight:                var(--muted_standard);
     --btn-box-shadow:               var(--muted_standard);
     --checkbox-color:               var(--muted_standard);
     --tb-border-color:              var(--muted_standard);
-    --tag-shadow:                   var(--muted_standard);
-    --tag-border:                   var(--muted_standard); 
-    
-
+  
 
     //muted_contrast (13)
     --sidebar-muted-color:          var(--muted_contrast); 
@@ -1308,6 +1306,9 @@
     --site-subtitle-color:          var(--muted_contrast);
     --card-hovor-bg:                var(--muted_contrast);
     --sidebar-btn-color:            var(--muted_contrast);
+    --tag-border:                   var(--muted_contrast); 
+    --link-hover-color:             var(--muted_contrast);
+
     
     //ink_standard (3)
     --text-color:                   var(--ink_standard);
@@ -1334,8 +1335,7 @@
     //flare_contrast (4)
     --text-muted-hightlight-color:  var(--flare-contrast); 
     --blockquote-border-color:      var(--flare_contrast);
-    --link-hover-color:             var(--flare_contrast);
-    --tag-hover:                    var(--flare_contrast);
+    
   
   
     
@@ -1637,17 +1637,7 @@ body {
   background-color: var(--sidebar-hover-bg)
 }
 
-#sidebar .blog-wrapper .nav-buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%
-}
 
-#sidebar .blog-wrapper .nav-buttons .active>* {
-  color: var(--sidebar-active-color) !important;
-  background-color: var(--sidebar-hover-bg)
-}
 
 #sidebar .blog-wrapper .nav-title {
   display: flex;
@@ -2447,20 +2437,22 @@ main #related-posts {
   margin: .5rem
 }
 
-/* Remove separator between toggle and social links */
-#sidebar .sidebar-bottom {
-  border-top: none;
-  border-bottom: none;
-  border-left: none;
-  border-right: none;
+/* Remove separator between toggle and social links NOT WORKING */
+#sidebar .sidebar-bottom  {
+  border-top: none !important;
+  border-bottom: none !important;
+  border-left: none !important;
+  border-right: none !important;
 }
 
 #sidebar .sidebar-bottom .social-links {
-  border-top: none;
-  border-bottom: none;
-  border-left: none;
-  border-right: none;
+  border-top: none !important;
+  border-bottom: none !important; 
+  border-left: none !important;
+  border-right: none !important;
 }
+
+
 
 /* Hide footer entirely */
 footer,
