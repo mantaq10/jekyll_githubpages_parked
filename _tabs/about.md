@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 4
+order: 1
 ---
 > “Remember where you came from, where you're going, and why you created this mess you got yourself into in the first place.” _Richard Bach, Illusions_
 {: .prompt-tip }

@@ -2439,10 +2439,11 @@ main #related-posts {
 
 /* Remove separator between toggle and social links NOT WORKING */
 #sidebar .sidebar-bottom  {
-  border-top: none !important;
-  border-bottom: none !important;
-  border-left: none !important;
-  border-right: none !important;
+  border-top: none;
+  margin-top: 1em;
+  border-bottom: none;
+  border-left: none ;
+  border-right: none; 
 }
 
 #sidebar .sidebar-bottom .social-links {
