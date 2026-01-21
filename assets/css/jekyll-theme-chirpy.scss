@@ -1,10 +1,16 @@
+--- 
 ---
----
+
 /* prettier-ignore */
 @use 'main
-{%- if jekyll.environment == 'production' -%}
-  .bundle
-{%- endif -%}
+ {
+  %- if jekyll.environment=='production'-%
+}
+
+.bundle {
+  %- endif -%
+}
+
 ';
 
 /* This is the remaining of the Chinese Guy's Theme */
@@ -1231,109 +1237,110 @@
     color: #bbb
   }
 }
+
 @media(prefers-color-scheme:light) {
 
   html:not([data-mode]),
   html[data-mode=light] {
     --bold_standard: #003049;
-    --bold_contrast: #fafbf5;       
-    --muted_standard: #780000;  
-    --muted_contrast: #669bbc;   
-    --ink_standard: black;      
-    --ink_contrast: white; 
+    --bold_contrast: #fafbf5;
+    --muted_standard: #780000;
+    --muted_contrast: #669bbc;
+    --ink_standard: black;
+    --ink_contrast: white;
     --flare_standard: #c1121f;
     --flare_contrast: rgb(0, 179, 0);
     --flare-special: #c7f8d7;
 
-    --site-title-color:             var(--flare-special);
+    --site-title-color: var(--flare-special);
     //bold_standard (9)
-    --sidebar-bg:                   var(--bold_standard); 
-    --sidebar-hover-bg:             var(--bold_standard); 
-    --sidebar-btn-bg:               var(--bold_standard); 
-    --heading-color:                var(--bold_standard);
-    --search-icon-color:            var(--bold_standard); 
-    --checkbox-checked-color:       var(--bold_standard);
-    --kbd-text-color:               var(--bold_standard);
-    --tag-shadow:                   var(--bold_standard);
-    --tag-hover:                    var(--bold_standard);
-    
-    //bold_contrast (4)
-    --main-bg:                      var(--bold_contrast);
-    --topbar-bg:                    var(--bold_contrast);
-    --search-tag-bg:                var(--bold_contrast);
-    --kbd-wrap-color:               var(--bold_contrast);
-    
+    --sidebar-bg: var(--bold_standard);
+    --sidebar-hover-bg: var(--bold_standard);
+    --sidebar-btn-bg: var(--bold_standard);
+    --heading-color: var(--bold_standard);
+    --search-icon-color: var(--bold_standard);
+    --checkbox-checked-color: var(--bold_standard);
+    --kbd-text-color: var(--bold_standard);
+    --tag-shadow: var(--bold_standard);
+    --tag-hover: var(--bold_standard);
 
-      
-    
+    //bold_contrast (4)
+    --main-bg: var(--bold_contrast);
+    --topbar-bg: var(--bold_contrast);
+    --search-tag-bg: var(--bold_contrast);
+    --kbd-wrap-color: var(--bold_contrast);
+
+
+
+
     //muted_standard (10)
-    --text-muted-color:             var(--muted_standard);
-    --post-list-text-color:         var(--muted_standard); 
-    --toc-highlight:                var(--muted_standard);
-    --btn-box-shadow:               var(--muted_standard);
-    --checkbox-color:               var(--muted_standard);
-    --tb-border-color:              var(--muted_standard);
-  
+    --text-muted-color: var(--muted_standard);
+    --post-list-text-color: var(--muted_standard);
+    --toc-highlight: var(--muted_standard);
+    --btn-box-shadow: var(--muted_standard);
+    --checkbox-color: var(--muted_standard);
+    --tb-border-color: var(--muted_standard);
+
 
     //muted_contrast (13)
-    --sidebar-muted-color:          var(--muted_contrast); 
-    --link-color:                   var(--muted_contrast);
-    --main-border-color:            var(--muted_contrast);
-    --sidebar-border-color:         var(--muted_contrast);
-    --input-focus-border-color:     var(--muted_contrast);
-    --btn-backtotop-border-color:   var(--muted_contrast);
-    --search-border-color:          var(--muted_contrast); 
-    --btn-border-color:             var(--muted_contrast);
-    --mask-bg:                      var(--muted_contrast);
-    --sidebar-active-color:         var(--muted_contrast);
-    --button-bg:                    var(--muted_contrast);
-    --btn-paginator-hover-color:    var(--muted_contrast);
-    --tb-odd-bg:                    var(--muted_contrast);
-    --kbd-bg-color:                 var(--muted_contrast);
-    --site-subtitle-color:          var(--muted_contrast);
-    --card-hovor-bg:                var(--muted_contrast);
-    --sidebar-btn-color:            var(--muted_contrast);
-    --tag-border:                   var(--muted_contrast); 
-    --link-hover-color:             var(--muted_contrast);
+    --sidebar-muted-color: var(--muted_contrast);
+    --link-color: var(--muted_contrast);
+    --main-border-color: var(--muted_contrast);
+    --sidebar-border-color: var(--muted_contrast);
+    --input-focus-border-color: var(--muted_contrast);
+    --btn-backtotop-border-color: var(--muted_contrast);
+    --search-border-color: var(--muted_contrast);
+    --btn-border-color: var(--muted_contrast);
+    --mask-bg: var(--muted_contrast);
+    --sidebar-active-color: var(--muted_contrast);
+    --button-bg: var(--muted_contrast);
+    --btn-paginator-hover-color: var(--muted_contrast);
+    --tb-odd-bg: var(--muted_contrast);
+    --kbd-bg-color: var(--muted_contrast);
+    --site-subtitle-color: var(--muted_contrast);
+    --card-hovor-bg: var(--muted_contrast);
+    --sidebar-btn-color: var(--muted_contrast);
+    --tag-border: var(--muted_contrast);
+    --link-hover-color: var(--muted_contrast);
 
-    
+
     //ink_standard (3)
-    --text-color:                   var(--ink_standard);
-    --topbar-text-color:            var(--ink_standard);
-    --btn-share-color:              var(--ink_standard);
-    --btn-patinator-text-color:     var(--ink_standard);
-    
+    --text-color: var(--ink_standard);
+    --topbar-text-color: var(--ink_standard);
+    --btn-share-color: var(--ink_standard);
+    --btn-patinator-text-color: var(--ink_standard);
+
     //ink_contrast (7)
-    --label-color:                  var(--ink_contrast);
-    --avatar-border-color:          var(--ink_contrast);
-    --btn-share-hover-color:        var(--ink_contrast);
-    --card-bg:                      var(--ink_contrast);
-    --footnote-target-bg:           var(--ink_contrast);
-    --btn-backtotop-color:          var(--ink_contrast);
+    --label-color: var(--ink_contrast);
+    --avatar-border-color: var(--ink_contrast);
+    --btn-share-hover-color: var(--ink_contrast);
+    --card-bg: var(--ink_contrast);
+    --footnote-target-bg: var(--ink_contrast);
+    --btn-backtotop-color: var(--ink_contrast);
 
 
 
     //flare_standard (3)
-    --blockquote-text-color:        var(--flare_standard);
-    --link-underline-color:         var(--flare_standard);
-    --dash-color:                   var(--flare_standard);
-    
+    --blockquote-text-color: var(--flare_standard);
+    --link-underline-color: var(--flare_standard);
+    --dash-color: var(--flare_standard);
+
 
     //flare_contrast (4)
-    --text-muted-hightlight-color:  var(--flare-contrast); 
-    --blockquote-border-color:      var(--flare_contrast);
-    
-  
-  
-    
+    --text-muted-hightlight-color: var(--flare-contrast);
+    --blockquote-border-color: var(--flare_contrast);
+
+
+
+
     //Mixed
     --img-bg: radial-gradient(circle, var(--bold_standard) 0%, var(--flare_contrast) 100%);
-    
-    
+
+
     //To Clean Up
     --shimmer-bg: linear-gradient(90deg, rgba(250, 250, 250, 0) 0%, rgba(232, 230, 230, 1) 50%, rgba(250, 250, 250, 0) 100%);
     --card-shadow: rgb(104, 104, 104, 0.05) 0 2px 6px 0, rgba(211, 209, 209, 0.15) 0 0 0 1px;
-    
+
 
     //Test: These are not changing using the variables? 
 
@@ -1374,129 +1381,129 @@
   html:not([data-mode]),
   html[data-mode=dark] {
     --bold_standard: #081d27;
-    --bold_contrast: #28282800;       
-    --muted_standard: #9a7b7b;  
-    --muted_contrast: #669bbc;   
-    --ink_standard: #8397a0;    
+    --bold_contrast: #28282800;
+    --muted_standard: #9a7b7b;
+    --muted_contrast: #669bbc;
+    --ink_standard: #8397a0;
     --ink_contrast: #081d27;
     --flare_standard: #bc8084;
     --flare_contrast: #175471;
     --flare-special: #bc8084;
 
-    --site-title-color:             var(--flare-special);
-    --heading-color:                var(--flare_contrast);
+    --site-title-color: var(--flare-special);
+    --heading-color: var(--flare_contrast);
 
     //bold_standard (9)
-    --sidebar-bg:                   var(--bold_standard); 
-    --sidebar-hover-bg:             var(--bold_standard); 
-    --sidebar-btn-bg:               var(--bold_standard); 
-    
-    --search-icon-color:            var(--bold_standard); 
-    --checkbox-checked-color:       var(--bold_standard);
-    --kbd-text-color:               var(--bold_standard);
-    --tag-shadow:                   var(--bold_standard);
-    --tag-hover:                    var(--bold_standard);
-    
-    //bold_contrast (4)
-    --main-bg:                      var(--bold_contrast);
-    --topbar-bg:                    var(--bold_contrast);
-    --search-tag-bg:                var(--bold_contrast);
-    --kbd-wrap-color:               var(--bold_contrast);
-    
+    --sidebar-bg: var(--bold_standard);
+    --sidebar-hover-bg: var(--bold_standard);
+    --sidebar-btn-bg: var(--bold_standard);
 
-      
-    
+    --search-icon-color: var(--bold_standard);
+    --checkbox-checked-color: var(--bold_standard);
+    --kbd-text-color: var(--bold_standard);
+    --tag-shadow: var(--bold_standard);
+    --tag-hover: var(--bold_standard);
+
+    //bold_contrast (4)
+    --main-bg: var(--bold_contrast);
+    --topbar-bg: var(--bold_contrast);
+    --search-tag-bg: var(--bold_contrast);
+    --kbd-wrap-color: var(--bold_contrast);
+
+
+
+
     //muted_standard (10)
-    --text-muted-color:             var(--muted_standard);
-    --post-list-text-color:         var(--muted_standard); 
-    --toc-highlight:                var(--muted_standard);
-    --btn-box-shadow:               var(--muted_standard);
-    --checkbox-color:               var(--muted_standard);
-    --tb-border-color:              var(--muted_standard);
-    
-  
+    --text-muted-color: var(--muted_standard);
+    --post-list-text-color: var(--muted_standard);
+    --toc-highlight: var(--muted_standard);
+    --btn-box-shadow: var(--muted_standard);
+    --checkbox-color: var(--muted_standard);
+    --tb-border-color: var(--muted_standard);
+
+
 
     //muted_contrast (13)
-    --sidebar-muted-color:          var(--muted_contrast); 
-    --link-color:                   var(--muted_contrast);
-    --main-border-color:            var(--muted_contrast);
-    --input-focus-border-color:     var(--muted_contrast);
-    --btn-backtotop-border-color:   var(--muted_contrast);
-    --search-border-color:          var(--muted_contrast); 
-    --btn-border-color:             var(--muted_contrast);
-    --mask-bg:                      var(--muted_contrast);
-    --sidebar-active-color:         var(--muted_contrast);
-    --button-bg:                    var(--muted_contrast);
-    --btn-paginator-hover-color:    var(--muted_contrast);
-    --tb-odd-bg:                    var(--muted_contrast);
-    --kbd-bg-color:                 var(--muted_contrast);
-    --site-subtitle-color:          var(--muted_contrast);
-    --card-hovor-bg:                var(--muted_contrast);
-    --sidebar-btn-color:            var(--muted_contrast);
-    --tag-border:                   var(--muted_contrast); 
-    --link-hover-color:             var(--muted_contrast);
+    --sidebar-muted-color: var(--muted_contrast);
+    --link-color: var(--muted_contrast);
+    --main-border-color: var(--muted_contrast);
+    --input-focus-border-color: var(--muted_contrast);
+    --btn-backtotop-border-color: var(--muted_contrast);
+    --search-border-color: var(--muted_contrast);
+    --btn-border-color: var(--muted_contrast);
+    --mask-bg: var(--muted_contrast);
+    --sidebar-active-color: var(--muted_contrast);
+    --button-bg: var(--muted_contrast);
+    --btn-paginator-hover-color: var(--muted_contrast);
+    --tb-odd-bg: var(--muted_contrast);
+    --kbd-bg-color: var(--muted_contrast);
+    --site-subtitle-color: var(--muted_contrast);
+    --card-hovor-bg: var(--muted_contrast);
+    --sidebar-btn-color: var(--muted_contrast);
+    --tag-border: var(--muted_contrast);
+    --link-hover-color: var(--muted_contrast);
 
-    
+
     //ink_standard (3)
-    --text-color:                   var(--ink_standard);
-    --topbar-text-color:            var(--ink_standard);
-    --btn-share-color:              var(--ink_standard);
-    --btn-patinator-text-color:     var(--ink_standard);
-    
+    --text-color: var(--ink_standard);
+    --topbar-text-color: var(--ink_standard);
+    --btn-share-color: var(--ink_standard);
+    --btn-patinator-text-color: var(--ink_standard);
+
     //ink_contrast (7)
-    --label-color:                  var(--ink_contrast);
-    --avatar-border-color:          var(--ink_contrast);
-    --btn-share-hover-color:        var(--ink_contrast);
-    --card-bg:                      var(--ink_contrast);
-    --footnote-target-bg:           var(--ink_contrast);
-    --btn-backtotop-color:          var(--ink_contrast);
-    --sidebar-border-color:         var(--ink_contrast);
+    --label-color: var(--ink_contrast);
+    --avatar-border-color: var(--ink_contrast);
+    --btn-share-hover-color: var(--ink_contrast);
+    --card-bg: var(--ink_contrast);
+    --footnote-target-bg: var(--ink_contrast);
+    --btn-backtotop-color: var(--ink_contrast);
+    --sidebar-border-color: var(--ink_contrast);
 
 
     //flare_standard (3)
-    --blockquote-text-color:        var(--flare_standard);
-    --link-underline-color:         var(--flare_standard);
-    --dash-color:                   var(--flare_standard);
-    
+    --blockquote-text-color: var(--flare_standard);
+    --link-underline-color: var(--flare_standard);
+    --dash-color: var(--flare_standard);
+
 
     //flare_contrast (4)
-    --text-muted-hightlight-color:  var(--flare-contrast); 
-    --blockquote-border-color:      var(--flare_contrast);
-    
-  
-  
-    
+    --text-muted-hightlight-color: var(--flare-contrast);
+    --blockquote-border-color: var(--flare_contrast);
+
+
+
+
     //Mixed
     --img-bg: radial-gradient(circle, var(--bold_standard) 0%, var(--flare_contrast) 100%);
-    
-    
+
+
     //To Clean Up
     --shimmer-bg: linear-gradient(90deg, rgba(250, 250, 250, 0) 0%, rgba(232, 230, 230, 1) 50%, rgba(250, 250, 250, 0) 100%);
     --card-shadow: rgb(104, 104, 104, 0.05) 0 2px 6px 0, rgba(211, 209, 209, 0.15) 0 0 0 1px;
-    
+
 
     //Test: These are not changing using the variables? 
 
     --prompt-text-color: rgba(206, 206, 206, 0.77);
-    
+
     --prompt-tip-bg: rgba(204, 241, 210, 0.2);
     --prompt-tip-icon-color: #03b303;
-    
+
     --prompt-info-bg: #e1f5fe2d;
     --prompt-info-icon-color: #0070cb;
-    
+
     --prompt-warn-bg: #fff3cd39;
     --prompt-warn-icon-color: #ef9c03;
-    
+
     --prompt-danger-bg: rgba(248, 215, 218, 0.229);
     --prompt-danger-icon-color: #df3c30;
 
     /////////////////////////////////////////////
-    
-    
+
+
     --img-bg: radial-gradient(circle, #161618 0%, #202020 100%);
     --shimmer-bg: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(58, 55, 55, 0.4) 50%, rgba(255, 255, 255, 0) 100%);
-    --card-header-bg: #292929;  
+    --card-header-bg: #292929;
     --tb-even-bg: #1f1f22;
     --card-shadow: rgb(21, 21, 21, 0.72) 0 6px 18px 0, rgb(137, 135, 135, 0.24) 0 0 0 1px;
     --kbd-bg-color: #242424;
@@ -1575,7 +1582,7 @@ body {
   padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif
+  font-family: "Funnel Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
 /* defaul wider sidebar can add more icons but breaks the rest of the page on China */
@@ -1592,6 +1599,7 @@ body {
   background: var(--sidebar-bg);
   border-right: 1px solid var(--sidebar-border-color)
 }
+
 /*keep: default narrower sidebar*/
 #sidebar .profile-wrapper {
   margin-top: 0.5rem;
@@ -1605,6 +1613,7 @@ body {
   align-items: center;
   justify-content: center
 }
+
 /*keep styling title font */
 #sidebar .site-title {
   font-family: "Marck Script", Merriweather, 'Times New Roman', Times, serif;
@@ -1615,10 +1624,11 @@ body {
   margin-top: 1.0rem;
   margin-bottom: .8rem
 }
+
 /*keep subtitle font */
 #sidebar .site-subtitle {
-  font-family: "Funnel Sans", Lato, Roboto, san-serif;
-  font-style: normal !important; 
+  font-family: "Funnel Sans", san-serif;
+  font-style: normal !important;
   text-align: center;
   font-size: 1.1rem;
   color: var(--site-subtitle-color);
@@ -1629,6 +1639,7 @@ body {
   -ms-user-select: none;
   user-select: none
 }
+
 /* Test: This could be the sidebar width? */
 /* #sidebar .blog-wrapper {
   display: flex;
@@ -1756,6 +1767,7 @@ body {
   color: var(--sidebar-active-color);
   background-color: var(--sidebar-hover-bg);
 }
+
 //Test: These classes are wrong, but the idea is great!
 #sidebar .nav-blog,
 #sidebar .nav-archives,
@@ -1813,6 +1825,7 @@ body {
   margin-right: 0 !important;
   transform: translateX(0)
 }
+
 //Keep This works in tandem with the search-box. 
 search {
   width: auto;
@@ -1841,10 +1854,10 @@ search {
   display: none !important;
 }
 
-#content-wrapper + hr,
-#content-wrapper + .dash,
-.content + hr,
-.content + .dash {
+#content-wrapper+hr,
+#content-wrapper+.dash,
+.content+hr,
+.content+.dash {
   display: none !important;
 }
 
@@ -1858,7 +1871,7 @@ main #related-posts {
 
 /* On large screens, match container-fluid max-width if it exists */
 @media all and (min-width:1650px) {
-  #main-wrapper > .container-fluid #related-posts {
+  #main-wrapper>.container-fluid #related-posts {
     max-width: 1500px !important;
     margin-left: auto !important;
     margin-right: auto !important;
@@ -1867,7 +1880,7 @@ main #related-posts {
 
 /* Convert to list format */
 #related-posts .row,
-#related-posts > div {
+#related-posts>div {
   display: block !important;
   list-style: none !important;
 }
@@ -2120,7 +2133,7 @@ main #related-posts {
 
 #archives .date.day {
   font-size: 85%;
-  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif
+  font-family: "Funnel Sans", sans-serif
 }
 
 #archives a {
@@ -2484,17 +2497,17 @@ main #related-posts {
 }
 
 /* Remove separator between toggle and social links NOT WORKING */
-#sidebar .sidebar-bottom  {
+#sidebar .sidebar-bottom {
   border-top: none;
   margin-top: 1em;
   border-bottom: none;
-  border-left: none ;
-  border-right: none; 
+  border-left: none;
+  border-right: none;
 }
 
 #sidebar .sidebar-bottom .social-links {
   border-top: none !important;
-  border-bottom: none !important; 
+  border-bottom: none !important;
   border-left: none !important;
   border-right: none !important;
 }
