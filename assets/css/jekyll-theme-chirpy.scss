@@ -1231,17 +1231,6 @@
     color: #bbb
   }
 }
-
-/* Original Theme
-    --bold_standard: #364F6B;
-    --bold_contrast: #F5F5F5;       
-    --muted_standard: #1C4D8D;  
-    --muted_contrast: #569de0;   
-    --ink_standard: black;      
-    --ink_contrast: white; 
-    --flare_standard: #FC5185;
-    --flare_contrast: #3FC1C9;
-*/
 @media(prefers-color-scheme:light) {
 
   html:not([data-mode]),
@@ -1257,8 +1246,6 @@
     --flare-special: #c7f8d7;
 
     --site-title-color:             var(--flare-special);
-
-
     //bold_standard (9)
     --sidebar-bg:                   var(--bold_standard); 
     --sidebar-hover-bg:             var(--bold_standard); 
@@ -1386,74 +1373,133 @@
 
   html:not([data-mode]),
   html[data-mode=dark] {
-    --main-bg: #191919;
-    --mask-bg: #444546;
-    --main-border-color: #868686;
-    --text-color: #afb0b1;
-    --text-muted-color: #868686;
-    --text-muted-hightlight-color: #aeaeae;
-    --heading-color: #ccc;
-    --label-color: #a7a7a7;
-    --blockquote-border-color: #424242;
-    --blockquote-text-color: #868686;
-    --link-color: #7dbbf7;
-    --link-underline-color: #0069db;
-    --link-hover-color: #d2603a;
-    --button-bg: #1e1e1e;
-    --btn-border-color: #2e2f31;
-    --btn-backtotop-color: var(--text-color);
-    --btn-backtotop-border-color: #212122;
-    --btn-box-shadow: #555;
-    --card-header-bg: #292929;
-    --checkbox-color: #767879;
-    --checkbox-checked-color: var(--link-color);
+    --bold_standard: #081d27;
+    --bold_contrast: #28282800;       
+    --muted_standard: #9a7b7b;  
+    --muted_contrast: #669bbc;   
+    --ink_standard: #8397a0;    
+    --ink_contrast: #081d27;
+    --flare_standard: #bc8084;
+    --flare_contrast: #175471;
+    --flare-special: #bc8084;
+
+    --site-title-color:             var(--flare-special);
+    --heading-color:                var(--flare_contrast);
+
+    //bold_standard (9)
+    --sidebar-bg:                   var(--bold_standard); 
+    --sidebar-hover-bg:             var(--bold_standard); 
+    --sidebar-btn-bg:               var(--bold_standard); 
+    
+    --search-icon-color:            var(--bold_standard); 
+    --checkbox-checked-color:       var(--bold_standard);
+    --kbd-text-color:               var(--bold_standard);
+    --tag-shadow:                   var(--bold_standard);
+    --tag-hover:                    var(--bold_standard);
+    
+    //bold_contrast (4)
+    --main-bg:                      var(--bold_contrast);
+    --topbar-bg:                    var(--bold_contrast);
+    --search-tag-bg:                var(--bold_contrast);
+    --kbd-wrap-color:               var(--bold_contrast);
+    
+
+      
+    
+    //muted_standard (10)
+    --text-muted-color:             var(--muted_standard);
+    --post-list-text-color:         var(--muted_standard); 
+    --toc-highlight:                var(--muted_standard);
+    --btn-box-shadow:               var(--muted_standard);
+    --checkbox-color:               var(--muted_standard);
+    --tb-border-color:              var(--muted_standard);
+    
+  
+
+    //muted_contrast (13)
+    --sidebar-muted-color:          var(--muted_contrast); 
+    --link-color:                   var(--muted_contrast);
+    --main-border-color:            var(--muted_contrast);
+    --input-focus-border-color:     var(--muted_contrast);
+    --btn-backtotop-border-color:   var(--muted_contrast);
+    --search-border-color:          var(--muted_contrast); 
+    --btn-border-color:             var(--muted_contrast);
+    --mask-bg:                      var(--muted_contrast);
+    --sidebar-active-color:         var(--muted_contrast);
+    --button-bg:                    var(--muted_contrast);
+    --btn-paginator-hover-color:    var(--muted_contrast);
+    --tb-odd-bg:                    var(--muted_contrast);
+    --kbd-bg-color:                 var(--muted_contrast);
+    --site-subtitle-color:          var(--muted_contrast);
+    --card-hovor-bg:                var(--muted_contrast);
+    --sidebar-btn-color:            var(--muted_contrast);
+    --tag-border:                   var(--muted_contrast); 
+    --link-hover-color:             var(--muted_contrast);
+
+    
+    //ink_standard (3)
+    --text-color:                   var(--ink_standard);
+    --topbar-text-color:            var(--ink_standard);
+    --btn-share-color:              var(--ink_standard);
+    --btn-patinator-text-color:     var(--ink_standard);
+    
+    //ink_contrast (7)
+    --label-color:                  var(--ink_contrast);
+    --avatar-border-color:          var(--ink_contrast);
+    --btn-share-hover-color:        var(--ink_contrast);
+    --card-bg:                      var(--ink_contrast);
+    --footnote-target-bg:           var(--ink_contrast);
+    --btn-backtotop-color:          var(--ink_contrast);
+    --sidebar-border-color:         var(--ink_contrast);
+
+
+    //flare_standard (3)
+    --blockquote-text-color:        var(--flare_standard);
+    --link-underline-color:         var(--flare_standard);
+    --dash-color:                   var(--flare_standard);
+    
+
+    //flare_contrast (4)
+    --text-muted-hightlight-color:  var(--flare-contrast); 
+    --blockquote-border-color:      var(--flare_contrast);
+    
+  
+  
+    
+    //Mixed
+    --img-bg: radial-gradient(circle, var(--bold_standard) 0%, var(--flare_contrast) 100%);
+    
+    
+    //To Clean Up
+    --shimmer-bg: linear-gradient(90deg, rgba(250, 250, 250, 0) 0%, rgba(232, 230, 230, 1) 50%, rgba(250, 250, 250, 0) 100%);
+    --card-shadow: rgb(104, 104, 104, 0.05) 0 2px 6px 0, rgba(211, 209, 209, 0.15) 0 0 0 1px;
+    
+
+    //Test: These are not changing using the variables? 
+
+    --prompt-text-color: rgba(206, 206, 206, 0.77);
+    
+    --prompt-tip-bg: rgba(204, 241, 210, 0.2);
+    --prompt-tip-icon-color: #03b303;
+    
+    --prompt-info-bg: #e1f5fe2d;
+    --prompt-info-icon-color: #0070cb;
+    
+    --prompt-warn-bg: #fff3cd39;
+    --prompt-warn-icon-color: #ef9c03;
+    
+    --prompt-danger-bg: rgba(248, 215, 218, 0.229);
+    --prompt-danger-icon-color: #df3c30;
+
+    /////////////////////////////////////////////
+    
+    
     --img-bg: radial-gradient(circle, #161618 0%, #202020 100%);
     --shimmer-bg: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(58, 55, 55, 0.4) 50%, rgba(255, 255, 255, 0) 100%);
-    --site-title-color: #717070;
-    --site-subtitle-color: white;
-    --sidebar-bg: var(--button-bg);
-    --sidebar-border-color: #292929;
-    --sidebar-muted-color: #868686;
-    --sidebar-active-color: rgb(255, 255, 255, 0.95);
-    --sidebar-hover-bg: #262626;
-    --sidebar-btn-bg: #232328;
-    --sidebar-btn-color: #ccc;
-    --avatar-border-color: rgb(206, 206, 206, 0.9);
-    --topbar-bg: rgb(27, 27, 30, 0.64);
-    --topbar-text-color: var(--text-color);
-    --search-border-color: #373737;
-    --search-icon-color: #646669;
-    --input-focus-border-color: #707273;
-    --post-list-text-color: #afb0b1;
-    --btn-patinator-text-color: var(--text-color);
-    --btn-paginator-hover-color: #2e2e2e;
-    --toc-highlight: #74b2f3;
-    --tag-hover: #2b383e;
-    --tb-odd-bg: #252526;
+    --card-header-bg: #292929;  
     --tb-even-bg: #1f1f22;
-    --tb-border-color: var(--tb-odd-bg);
-    --footnote-target-bg: #3f51b5;
-    --btn-share-color: #bfc1ca;
-    --btn-share-hover-color: #d2603a;
-    --card-bg: #1e1e1e;
-    --card-hovor-bg: #464d51;
     --card-shadow: rgb(21, 21, 21, 0.72) 0 6px 18px 0, rgb(137, 135, 135, 0.24) 0 0 0 1px;
-    --kbd-wrap-color: #6a6a6a;
-    --kbd-text-color: #d3d3d3;
     --kbd-bg-color: #242424;
-    --prompt-text-color: rgb(216, 212, 212, 0.75);
-    --prompt-tip-bg: rgb(22, 60, 36, 0.64);
-    --prompt-tip-icon-color: rgb(15, 164, 15, 0.81);
-    --prompt-info-bg: rgb(7, 59, 104, 0.8);
-    --prompt-info-icon-color: #0075d1;
-    --prompt-warn-bg: rgb(90, 69, 3, 0.88);
-    --prompt-warn-icon-color: rgb(255, 165, 0, 0.8);
-    --prompt-danger-bg: rgb(86, 28, 8, 0.8);
-    --prompt-danger-icon-color: #cd0202;
-    --tag-border: #3b4f58;
-    --tag-shadow: #202121;
-    --dash-color: #3f4144;
-    --search-tag-bg: #292828;
     --categories-border: rgb(64, 66, 69, 0.5);
     --categories-hover-bg: #494b4c;
     --categories-icon-hover-color: white;
