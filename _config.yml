@@ -42,7 +42,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-compose
-  - github-pages
+  #- github-pages
   
 
 
