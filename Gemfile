@@ -9,6 +9,7 @@ gem "jekyll-compose" #Create new posts, drafts, and pages
 gem "jekyll-feed" #RSS Feed 
 gem "jekyll-seo-tag" #SEO
 gem "jekyll-sitemap" #Sitemap
+gem "github-pages" #not sure if this is the official way to test whether the site will run or not. 
 
 # Testing
 group :test do
