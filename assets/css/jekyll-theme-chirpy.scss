@@ -1577,13 +1577,13 @@ body {
   padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
-  //font-family: "Funnel Sans", sans-serif
-  font-family: sans-serif
+  font-family: "Funnel Sans", sans-serif
+  //font-family: sans-serif
 }
 
 h1, h2, h3, h4, h5, h6 {
-  //font-family: "IBM Plex Serif", serif;
-  font-family: serif;
+  font-family: "IBM Plex Serif", serif;
+  //font-family: serif;
 }
 
 /* defaul wider sidebar can add more icons but breaks the rest of the page on China */
@@ -1617,8 +1617,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /*keep styling title font */
 #sidebar .site-title {
-  //font-family: "Marck Script", Merriweather, 'Times New Roman', Times, serif;
-  font-family: serif;
+  font-family: "Marck Script", Merriweather, 'Times New Roman', Times, serif;
+  //font-family: serif;
   font-weight: bolder;
   font-size: 2rem;
   line-height: 1.8;
@@ -1629,8 +1629,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /*keep subtitle font */
 #sidebar .site-subtitle {
-  //font-family: "Funnel Sans", san-serif;
-  font-family: san-serif;
+  font-family: "Funnel Sans", san-serif;
+  //font-family: san-serif;
   font-style: normal !important;
   text-align: center;
   font-size: 1.1rem;
@@ -2136,8 +2136,8 @@ main #related-posts {
 
 #archives .date.day {
   font-size: 85%;
-  //font-family: "Funnel Sans", sans-serif
-  font-family: sans-serif
+  font-family: "Funnel Sans", sans-serif
+  //font-family: sans-serif
 }
 
 #archives a {
