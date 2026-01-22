@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Learning how to Learn an the best Techniques researched
+title: Attention Seeking is to be Understood in a World of Noise
 date: 2026-01-11 19:51 +0500
 description: Shortlisted techniques from the smeinal paper on learning that has been reproducible and hard to refute simultaneously alongside an approach on building a practice for a lifestyle of lifelong learning. 
 image:
